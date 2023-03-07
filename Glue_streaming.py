@@ -32,7 +32,7 @@ temp_path = output_path + "temp/"
 def process_batch(data_frame, batchid):
     '''function to  to process batch'''
     if data_frame.count() > 0:
-        print(data_frame)
+
         dynamic_frame = DynamicFrame.fromDF(data_frame, glueContext, "from_data_frame")
 
         dynamic_frame.printSchema()
