@@ -49,7 +49,7 @@ def generate_records(number):
 
 def main():
     '''this function will parse input params and will
-     create data objects'''
+         create data objects'''
     try:
         num = int(sys.argv[1])
         stream_name = sys.argv[2]
